@@ -16,10 +16,10 @@ class CofeeMachine{
   void cook();
   void finish();
   private:
-  int kol;
+  int kol_;
   int cash;
-  std :: string* menu;
-  int* prices;
+  std :: string* menu_;
+  int* prices_;
   enum state { OFF, WAIT, ACCEPT, CHECK, COOK };
   int indchoose;
   state st;
