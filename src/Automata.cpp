@@ -65,11 +65,11 @@ std :: string CofeeMachine :: getState(){
     case COOK : return "COOK";
   }
 }
-std::string CofeeMachine :: getMenu() {
-    std::string menu;
-    for (int i = 0; i < _count; ++i) {
-        menu += std::to_string(i + 1) + ". " + menu[i]
-          + " - " + std::to_string(prices[i]) + " рублей \n";
+void CofeeMachine :: getMenu() {
+  std::string menu_;
+  std :: cout << "Menu : \n";
+    for (int i = 0; i < _count; i++) {
+      std :: cout << i+1 <<". "<< menu[i] <<" - ";
+      std :: cout << prices[i] << " рублей \n";
     }
-    return menu;
 }
