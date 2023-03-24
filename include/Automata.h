@@ -4,22 +4,22 @@
 #include<string>
 class CofeeMachine{
   public:
-  CofeeMachine(int* prices, std :: string* menu, int kol);
+  CofeeMachine(int* prices_, std :: string* menu_, int kol_);
   void on();
   void off();
   void coin(int a);
-  std :: string etMenu();
-  int* getState();
-  int choice();
+  void getMenu();
+  std :: string getState();
+  void choice(int ind);
   void check();
   void cancel();
   void cook();
   void finish();
   private:
-  int kol_;
+  int kol;
   int cash;
-  std :: string* menu_;
-  int* prices_;
+  std :: string* menu;
+  int* prices;
   enum state { OFF, WAIT, ACCEPT, CHECK, COOK };
   int indchoose;
   state st;
