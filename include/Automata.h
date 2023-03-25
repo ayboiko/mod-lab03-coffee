@@ -5,6 +5,7 @@
 class CofeeMachine{
   public:
   CofeeMachine(int* prices_, std :: string* menu_, int kol_);
+  int cash;
   void on();
   void off();
   void coin(int a);
@@ -17,7 +18,6 @@ class CofeeMachine{
   void finish();
   private:
   int kol;
-  int cash;
   std :: string* menu;
   int* prices;
   enum state { OFF, WAIT, ACCEPT, CHECK, COOK };
