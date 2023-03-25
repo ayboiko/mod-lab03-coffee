@@ -28,7 +28,6 @@ TEST(task1, test2) {
   std :: string result = cof.getState();
   cof.cook();
   cof.finish();
-  std :: string result = cof.getState();
   EXPECT_EQ("CHECK", result);
 }
 TEST(task1, test3) {
