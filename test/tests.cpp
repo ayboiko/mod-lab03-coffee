@@ -10,7 +10,6 @@ TEST(task1, test1) {
   cof.coin(500);
   cof.choice(4);
   cof.check();
-  cof.getState();
   cof.cook();
   cof.finish();
   std :: string result = cof.getState();
