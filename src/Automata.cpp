@@ -52,6 +52,7 @@ void CofeeMachine :: choice(int ind) {
 void CofeeMachine :: check() {
   if (st == CHECK) {
     if (cash >= prices[indchoose] && indchoose != -1) {
+      std :: cout<<"paying /n";
       cash = cash - prices[indchoose];
     }
   }
