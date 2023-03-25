@@ -36,7 +36,7 @@ void CofeeMachine :: finish() {
   }
 }
 void CofeeMachine :: cook() {
-  if (st == ACCEPT) {
+  if (st == CHECK) {
     st = COOK;
   }
 }
