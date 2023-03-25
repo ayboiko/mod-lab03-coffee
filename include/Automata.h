@@ -1,5 +1,5 @@
-#ifndef AUTOMAT_
-#define AUTOMAT_
+#ifndef INCLUDE_AUTOMATA_H_
+#define INCLUDE_AUTOMATA_H_
 #include<iostream>
 #include<string>
 class CofeeMachine{
@@ -24,4 +24,4 @@ class CofeeMachine{
   int indchoose;
   state st;
 };
-#endif
+#endif  // INCLUDE_AUTOMATA_H_
