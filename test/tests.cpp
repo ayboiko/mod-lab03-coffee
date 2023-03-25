@@ -38,10 +38,10 @@ TEST(task1, test3) {
   cof.coin(500);
   cof.choice(2);
   cof.cancel();
-  cof.choice(1);
+  cof.choice(3);
   cof.check();
   cof.cook();
   cof.finish();
   int result = cof.cash;
-  EXPECT_EQ(400, result);
+  EXPECT_EQ(270, result);
 }
