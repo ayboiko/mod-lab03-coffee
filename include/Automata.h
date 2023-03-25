@@ -4,7 +4,7 @@
 #include<iostream>
 #include<string>
 class CofeeMachine{
-  public:
+ public:
   CofeeMachine(int* prices_, std :: string* menu_, int kol_);
   int cash;
   void on();
@@ -17,7 +17,7 @@ class CofeeMachine{
   void cancel();
   void cook();
   void finish();
-  private:
+ private:
   int kol;
   std :: string* menu;
   int* prices;
