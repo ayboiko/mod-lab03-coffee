@@ -1,8 +1,8 @@
 #include "Automata.h"
 #include "iostream"
-int main(){
- std :: string napit[] = { "Espresso", "Flat-white", "Raf", "Mokachino"};
-  int ceni[] = {100,210,230,300};
+int main() {
+ std :: string napit[] = { "Espresso", "Flat-white", "Raf", "Mokachino" };
+  int ceni[] = {100, 210, 230, 300};
   CofeeMachine cof(ceni, napit, 4);
   cof.on();
   cof.getMenu();
