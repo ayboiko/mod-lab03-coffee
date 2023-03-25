@@ -64,6 +64,7 @@ std :: string CofeeMachine :: getState(){
     case CHECK : return "CHECK";
     case COOK : return "COOK";
   }
+  return " ";
 }
 void CofeeMachine :: getMenu() {
   std::string menu_;
