@@ -10,7 +10,7 @@ void CofeeMachine :: on(){
     st = WAIT;
   }
 }
-void CofeeMachine :: of(){
+void CofeeMachine :: off(){
   if(st == WAIT){
     st = OFF;
   }
@@ -69,7 +69,7 @@ std :: string CofeeMachine :: getState(){
 void CofeeMachine :: getMenu() {
   std::string menu_;
   std :: cout << "Menu : \n";
-    for (int i = 0; i < _count; i++) {
+    for (int i = 0; i < kol; i++) {
       std :: cout << i+1 <<". "<< menu[i] <<" - ";
       std :: cout << prices[i] << " рублей \n";
     }
