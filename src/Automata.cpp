@@ -36,7 +36,7 @@ void CofeeMachine :: finish() {
   }
 }
 void CofeeMachine :: cook() {
-  if (st == ACCEPT){
+  if (st == ACCEPT) {
     st = COOK;
   }
 }
@@ -44,16 +44,14 @@ void CofeeMachine :: choice(int ind) {
   if (st == ACCEPT) {
     if ( ind >= 1 && ind <= kol ) {
     indchoose = ind - 1; st = CHECK;
-    }
-    else
-    {
+    } else {
       indchoose = -1;
     }
   }
 }
 void CofeeMachine :: check() {
   if (st == CHECK) {
-    if ( cash >= prices[indchoose] && indchoose != -1) {
+    if (cash >= prices[indchoose] && indchoose != -1) {
       cash = cash - prices[indchoose];
     }
   }
