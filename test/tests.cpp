@@ -1,4 +1,4 @@
-
+// Copyright 2022 UNN-IASR
 #include <gtest/gtest.h>
 #include "Automata.h"
 TEST(task1, test1) {
