@@ -3,7 +3,7 @@
 #include "Automata.h"
 TEST(task1, test1) {
   std :: string napit[] = { "Espresso", "Flat-white", "Raf", "Mokachino"};
-  int ceni[] = {100,210,230,300};
+  int ceni[] = {100, 210, 230, 300};
   CofeeMachine cof(ceni, napit, 4);
   cof.on();
   cof.getMenu();
@@ -18,7 +18,7 @@ TEST(task1, test1) {
 }
 TEST(task1, test2) {
   std :: string napit[] = { "Espresso", "Flat-white", "Raf", "Mokachino"};
-  int ceni[] = {100,210,230,300};
+  int ceni[] = {100, 210, 230, 300};
   CofeeMachine cof(ceni, napit, 4);
   cof.on();
   cof.getMenu();
@@ -33,7 +33,7 @@ TEST(task1, test2) {
 }
 TEST(task1, test3) {
   std :: string napit[] = { "Espresso", "Flat-white", "Raf", "Mokachino"};
-  int ceni[] = {100,210,230,300};
+  int ceni[] = {100, 210, 230, 300};
   CofeeMachine cof(ceni, napit, 4);
   cof.on();
   cof.getMenu();
