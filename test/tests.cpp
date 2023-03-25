@@ -38,6 +38,7 @@ TEST(task1, test3) {
   cof.coin(500);
   cof.choice(2);
   cof.cancel();
+  cof.coin(0);
   cof.choice(3);
   cof.check();
   cof.cook();
